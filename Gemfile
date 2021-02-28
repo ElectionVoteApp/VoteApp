@@ -55,3 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #Deviceの導入
 gem 'devise'
+
+#dockerのエラー「Could not find bcrypt-3.1.16 in any of the sources」
+#を解決するために導入
+gem 'bcrypt', '~> 3.1.16'
